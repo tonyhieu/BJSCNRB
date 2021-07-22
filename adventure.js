@@ -29,7 +29,7 @@ function mountains() {
 
   while (ninjaHP > 0 && golemHP > 0) {
     var playerTurn = 0;
-    alert(`Ninja HP: ${ninjaHP}, Golem HP: ${golemHP}`);
+    alert(`Ninja HP: ${ninjaHP}, Golem HP: ${golemHP}`); // This format is a little weird; you can use alert("Ninja HP: " + ninjaHP + ", Golem HP: " + golemHP); instead.
     while (playerTurn == 0) {
       var choice = parseInt(prompt("What do you want to do? 1: Attack, 2: Heal, 3: Defend"));
       switch (choice) {
